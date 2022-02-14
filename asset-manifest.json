@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Enneagram/static/css/main.238ad39a.css",
+    "main.js": "/Enneagram/static/js/main.01a0ae74.js",
+    "index.html": "/Enneagram/index.html",
+    "main.238ad39a.css.map": "/Enneagram/static/css/main.238ad39a.css.map",
+    "main.01a0ae74.js.map": "/Enneagram/static/js/main.01a0ae74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238ad39a.css",
+    "static/js/main.01a0ae74.js"
+  ]
+}
