@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navUnactiveButton {
+        @apply px-2 py-1 mx-2 mt-2 text-base font-semibold text-white transition-colors duration-200 transform rounded-md md:mt-0 hover:bg-blue-700
+    }
+    .navActiveButton {
+        @apply px-2 py-1 mx-2 mt-2 text-base font-semibold text-white transition-colors duration-200 transform rounded-md md:mt-0 bg-blue-800
+    }
+    .containerHeaderL {
+        @apply container py-2 mx-auto max-w-[95%]
+    }
+    .containerHeader {
+        @apply container py-1 mx-auto max-w-[90%]
+    }
+    .textLogo1L {
+        @apply text-4xl font-bold text-white transition-colors cursor-pointer duration-200 transform hover:text-blue-500
+    }
+    .textLogo1 {
+        @apply text-2xl font-bold text-white transition-colors duration-200 transform hover:text-blue-500
+    }
+    .textLogo2L {
+        @apply text-base font-semibold text-white transition-colors cursor-pointer duration-200 transform hover:text-blue-500 align-text-bottom
+    }
+    .textLogo2 {
+        @apply text-xs font-semibold text-white transition-colors duration-200 transform hover:text-blue-500
+    }
+
+    .navContainerButtonL {
+        @apply flex flex-row items-center
+    }
+    .div {
+        @apply flex items-center justify-center
+    }
+    .divGrid {
+        @apply grid justify-items-center
+    }
+    .navTopRightElementsL {
+        @apply flex inset-y-0 right-0 items-center
+    }
+
+    .navUnactiveMenuContent {
+        @apply flex justify-between w-full px-4 py-2 font-medium text-gray-900 text-sm leading-5 text-left hover:bg-blue-600 hover:rounded-md hover:text-white cursor-pointer my-1
+    }
+    .navActiveMenuContent {
+        @apply flex justify-between w-full px-4 py-2 font-bold text-white text-sm leading-5 text-left bg-blue-700 rounded-md my-1
+    }
+};
