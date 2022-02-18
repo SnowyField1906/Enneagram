@@ -25,11 +25,11 @@ function App() {
                     <NavBar />
                     <div className='py-1'>
                         <Routes>
-                            <Route path='/' exact element={<Home/>}/>
-                            <Route path='/type' element={<Type />}/>
-                            <Route path='/documents' element={<Documents />}/>
-                            <Route path='/information' element={<Information />}/>
-                            <Route path='/forum' element={<Forum />}/>
+                            <Route path='Enneagram/' exact element={<Home/>}/>
+                            <Route path='Enneagram/type' element={<Type />}/>
+                            <Route path='Enneagram/documents' element={<Documents />}/>
+                            <Route path='Enneagram/information' element={<Information />}/>
+                            <Route path='Enneagram/forum' element={<Forum />}/>
                         </Routes>
                     </div>
                 </Router>
