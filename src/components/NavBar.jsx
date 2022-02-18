@@ -34,7 +34,7 @@ function NavBar() {
                             <Link to='Enneagram/' class="dm:textLogo1 md:textLogo1L">Enneagram</Link>
                         </div>
                         <div>
-                            <a class="dm:textLogo2 md:textLogo2L">.SnowyField</a>
+                            <a href="http://facebook.com/trantieuvann" target="_blank" class="dm:textLogo2 md:textLogo2L">.SnowyField</a>
                         </div>
                     </div>
 
