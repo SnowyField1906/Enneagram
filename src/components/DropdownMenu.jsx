@@ -20,19 +20,19 @@ function DropdownMenu() {
 
 				<div className="py-1">
 					<Menu.Item>
-						<NavLink to="/Enneagram/type" className={({ isActive }) =>
+						<NavLink to="/type" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Type của bạn</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/Enneagram/infomation" className={({ isActive }) =>
+						<NavLink to="/infomation" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Eneagram là gì</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/Enneagram/documents" className={({ isActive }) =>
+						<NavLink to="/documents" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Thông tin thêm</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/Enneagram/forum" className={({ isActive }) =>
+						<NavLink to="/forum" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Diễn đàn</NavLink>
 					</Menu.Item>
 				</div>
@@ -51,7 +51,7 @@ function DropdownMenu() {
 
 				<div className="py-1">
 					<Menu.Item>
-						<a class='navUnactiveMenuContent font-semibold text-red-500'>
+						<a class='navUnactiveMenuContent font-semibold text-red-600 hover:bg-red-600 hover:text-white'>
 							Sign out
 						</a>
 					</Menu.Item>
