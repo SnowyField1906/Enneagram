@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import ClickAwayListener from 'react-click-away-listener';
 
 import DropdownMenu from "./DropdownMenu";
@@ -9,7 +9,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import { FiLogOut } from "react-icons/fi"
 
-import forum from "./../pages/forum"
+import Home from './../pages/home'
 
 
 function NavBar() {
@@ -31,7 +31,7 @@ function NavBar() {
                 <div class="flex items-center md:div">
                     <div class="text-right pb-1 md:flex md:items-end">
                         <div>
-                            <a class="dm:textLogo1 md:textLogo1L" href="/">Enneagram</a>
+                            <Link to='Enneagram/' class="dm:textLogo1 md:textLogo1L">Enneagram</Link>
                         </div>
                         <div>
                             <a class="dm:textLogo2 md:textLogo2L">.SnowyField</a>
@@ -40,13 +40,13 @@ function NavBar() {
 
                     <div class="lg:place-content-around ml-auto">
                         <div class="hidden lg:navContainerButtonL">
-                            <NavLink to="/type" className={({ isActive }) =>
+                            <NavLink to="Enneagram/type" className={({ isActive }) =>
                                 isActive ? 'navActiveButton' : 'navUnactiveButton'}>Type của bạn</NavLink>
-                            <NavLink to="/information" className={({ isActive }) =>
+                            <NavLink to="Enneagram/information" className={({ isActive }) =>
                                 isActive ? 'navActiveButton' : 'navUnactiveButton'}>Eneagram là gì</NavLink>
-                            <NavLink to="/documents" className={({ isActive }) =>
+                            <NavLink to="Enneagram/documents" className={({ isActive }) =>
                                 isActive ? 'navActiveButton' : 'navUnactiveButton'}>Thông tin thêm</NavLink>
-                            <NavLink component={ forum } to="/forum" className={({ isActive }) =>
+                            <NavLink to="Enneagram/forum" className={({ isActive }) =>
                                 isActive ? 'navActiveButton' : 'navUnactiveButton'}>Diễn đàn</NavLink>
                         </div>
                     </div>

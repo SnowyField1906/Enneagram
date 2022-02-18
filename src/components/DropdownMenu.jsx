@@ -20,19 +20,19 @@ function DropdownMenu() {
 
 				<div className="py-1">
 					<Menu.Item>
-						<NavLink to="/type" className={({ isActive }) =>
+						<NavLink to="Enneagram/type" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Type của bạn</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/infomation" className={({ isActive }) =>
+						<NavLink to="Enneagram/information" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Eneagram là gì</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/documents" className={({ isActive }) =>
+						<NavLink to="Enneagram/documents" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Thông tin thêm</NavLink>
 					</Menu.Item>
 					<Menu.Item>
-						<NavLink to="/forum" className={({ isActive }) =>
+						<NavLink to="Enneagram/forum" className={({ isActive }) =>
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Diễn đàn</NavLink>
 					</Menu.Item>
 				</div>
