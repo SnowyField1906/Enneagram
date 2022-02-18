@@ -7,8 +7,8 @@ function Home() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100vw',
-        height: '95vh'}} className='px-5 py-10 mt-[45px] mb-[-45px]'>
-            <h2 className='text-[4rem] text-white w-[30%]'>Chào mừng bạn đến với SnowyField</h2>
+        height: '93vh'}} className='mt-[50px] mb-[-44px] h-full'>
+            <h2 className='text-lg text-white w-[50%]'>Chào mừng bạn đến với SnowyField</h2>
         </div>
     )
 }
