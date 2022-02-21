@@ -36,26 +36,29 @@ function DropdownMenu() {
 							isActive ? 'navActiveMenuContent' : 'navUnactiveMenuContent'}>Diễn đàn</NavLink>
 					</Menu.Item>
 				</div>
+				
+				<div>
+					<div className="py-3 sm:hidden">
+						<Menu.Item>
+							<a class='navUnactiveMenuContent'>Thông tin cá nhân</a>
+						</Menu.Item>
+						<Menu.Item>
+							<a class='navUnactiveMenuContent'>Mật khẩu và bảo mật</a>
+						</Menu.Item>
+						<Menu.Item>
+							<a class='navUnactiveMenuContent'>Cài đặt</a>
+						</Menu.Item>
+					</div>
 
-				<div className="py-3 sm:hidden">
-					<Menu.Item>
-						<a class='navUnactiveMenuContent'>Thông tin cá nhân</a>
-					</Menu.Item>
-					<Menu.Item>
-						<a class='navUnactiveMenuContent'>Mật khẩu và bảo mật</a>
-					</Menu.Item>
-					<Menu.Item>
-						<a class='navUnactiveMenuContent'>Cài đặt</a>
-					</Menu.Item>
+					<div className="py-1">
+						<Menu.Item>
+							<a class='navUnactiveMenuContent font-semibold text-red-600 hover:bg-red-600 hover:text-white'>
+								Sign out
+							</a>
+						</Menu.Item>
+					</div>
 				</div>
-
-				<div className="py-1">
-					<Menu.Item>
-						<a class='navUnactiveMenuContent font-semibold text-red-600 hover:bg-red-600 hover:text-white'>
-							Sign out
-						</a>
-					</Menu.Item>
-				</div>
+				
 			</Menu.Items>
 		</Menu>
 	)

@@ -10,11 +10,10 @@ import Documents from './pages/documents'
 import Information from './pages/information'
 import Forum from './pages/forum'
 
-
-
+    
 function App() {
     useEffect(() => {
-        document.title = "Eneagram - SnowyField";
+        document.title = "Enneagram - SnowyField";
     }, []);
 
 
