@@ -8,7 +8,7 @@ function Home() {
     return (
         <div style={{
             backgroundImage: `url(${bg})`, backgroundPosition: 'center',
-            backgroundSize: 'cover',
+            backgroundSize: 'cover',  
             backgroundRepeat: 'no-repeat',
             width: '100vw',
             height: '93vh'
